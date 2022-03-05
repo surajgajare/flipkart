@@ -32,6 +32,7 @@ public class tests extends Browser{
 
 	private WebDriver drivers;
 	String testID;
+	String sheet;
 
 	private AddToCart c;
 	private	Login_Page l;
@@ -84,6 +85,7 @@ public class tests extends Browser{
 		l.login();
 		Thread.sleep(3000);
 		
+	//	Utility.dataFromExcel("Sheet1",1 ,1 );
 		
 	}
 	
