@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="3" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="3" parallel="tests" name="FirefoxTest(failed)">
+<suite thread-count="2" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="FirefoxTest(failed)">
     <parameter name="browser" value="Firefox"/>
     <classes>
       <class name="m_flipcart.tests">
@@ -16,19 +16,4 @@
       </class> <!-- m_flipcart.tests -->
     </classes>
   </test> <!-- FirefoxTest(failed) -->
-  <test thread-count="3" parallel="tests" name="OperaTest(failed)">
-    <parameter name="browser" value="Opera"/>
-    <classes>
-      <class name="m_flipcart.tests">
-        <methods>
-          <include name="launchBrowser"/>
-          <include name="launchBrowser"/>
-          <include name="closeBrowser"/>
-          <include name="remove"/>
-          <include name="logout"/>
-          <include name="logInApplication"/>
-        </methods>
-      </class> <!-- m_flipcart.tests -->
-    </classes>
-  </test> <!-- OperaTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

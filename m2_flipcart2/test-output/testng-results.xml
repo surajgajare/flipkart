@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-10T11:22:37 IST" name="Suite" finished-at="2022-03-10T11:26:28 IST" duration-ms="230671">
+    <groups>
+    </groups>
+    <test started-at="2022-03-10T11:22:37 IST" name="FirefoxTest" finished-at="2022-03-10T11:23:58 IST" duration-ms="81071">
+      <class name="m_flipcart.tests">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:m_flipcart.tests@481a996b]" started-at="2022-03-10T11:22:37 IST" name="launchBrowser" finished-at="2022-03-10T11:22:44 IST" duration-ms="6845" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:m_flipcart.tests@481a996b]" started-at="2022-03-10T11:22:44 IST" name="launchBrowser" finished-at="2022-03-10T11:22:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logInApplication()[pri:0, instance:m_flipcart.tests@481a996b]" started-at="2022-03-10T11:22:44 IST" name="logInApplication" finished-at="2022-03-10T11:23:01 IST" duration-ms="17028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInApplication -->
+        <test-method signature="addDelete()[pri:0, instance:m_flipcart.tests@481a996b]" started-at="2022-03-10T11:23:01 IST" name="addDelete" finished-at="2022-03-10T11:23:23 IST" duration-ms="22093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addDelete -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:m_flipcart.tests@481a996b]" started-at="2022-03-10T11:23:23 IST" name="logout" finished-at="2022-03-10T11:23:30 IST" duration-ms="6405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="logInApplication()[pri:0, instance:m_flipcart.tests@481a996b]" started-at="2022-03-10T11:23:30 IST" name="logInApplication" finished-at="2022-03-10T11:23:44 IST" duration-ms="14006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInApplication -->
+        <test-method signature="remove()[pri:0, instance:m_flipcart.tests@481a996b]" started-at="2022-03-10T11:23:44 IST" name="remove" finished-at="2022-03-10T11:23:50 IST" duration-ms="6780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:m_flipcart.tests@481a996b]" started-at="2022-03-10T11:23:50 IST" name="logout" finished-at="2022-03-10T11:23:57 IST" duration-ms="6393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:m_flipcart.tests@481a996b]" started-at="2022-03-10T11:23:57 IST" name="closeBrowser" finished-at="2022-03-10T11:23:58 IST" duration-ms="1479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- m_flipcart.tests -->
+      <class name="m_flipcart.randomTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:m_flipcart.randomTest@c33b74f]" started-at="2022-03-10T11:22:44 IST" name="beforeClass" finished-at="2022-03-10T11:22:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:m_flipcart.randomTest@c33b74f]" started-at="2022-03-10T11:22:44 IST" name="beforeclass" finished-at="2022-03-10T11:22:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="Tests()[pri:0, instance:m_flipcart.randomTest@c33b74f]" started-at="2022-03-10T11:22:44 IST" name="Tests" finished-at="2022-03-10T11:22:44 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tests -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:m_flipcart.randomTest@c33b74f]" started-at="2022-03-10T11:22:44 IST" name="afterMethod" finished-at="2022-03-10T11:22:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="AfterClasss()[pri:0, instance:m_flipcart.randomTest@c33b74f]" started-at="2022-03-10T11:22:44 IST" name="AfterClasss" finished-at="2022-03-10T11:22:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClasss -->
+      </class> <!-- m_flipcart.randomTest -->
+    </test> <!-- FirefoxTest -->
+    <test started-at="2022-03-10T11:23:58 IST" name="OperaTest" finished-at="2022-03-10T11:25:14 IST" duration-ms="76100">
+      <class name="m_flipcart.tests">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:m_flipcart.tests@694abbdc]" started-at="2022-03-10T11:23:58 IST" name="launchBrowser" finished-at="2022-03-10T11:24:00 IST" duration-ms="1948" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:m_flipcart.tests@694abbdc]" started-at="2022-03-10T11:24:00 IST" name="launchBrowser" finished-at="2022-03-10T11:24:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logInApplication()[pri:0, instance:m_flipcart.tests@694abbdc]" started-at="2022-03-10T11:24:00 IST" name="logInApplication" finished-at="2022-03-10T11:24:18 IST" duration-ms="17212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInApplication -->
+        <test-method signature="addDelete()[pri:0, instance:m_flipcart.tests@694abbdc]" started-at="2022-03-10T11:24:18 IST" name="addDelete" finished-at="2022-03-10T11:24:39 IST" duration-ms="21591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addDelete -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:m_flipcart.tests@694abbdc]" started-at="2022-03-10T11:24:39 IST" name="logout" finished-at="2022-03-10T11:24:45 IST" duration-ms="6217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="logInApplication()[pri:0, instance:m_flipcart.tests@694abbdc]" started-at="2022-03-10T11:24:45 IST" name="logInApplication" finished-at="2022-03-10T11:25:01 IST" duration-ms="15853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInApplication -->
+        <test-method signature="remove()[pri:0, instance:m_flipcart.tests@694abbdc]" started-at="2022-03-10T11:25:01 IST" name="remove" finished-at="2022-03-10T11:25:08 IST" duration-ms="6304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:m_flipcart.tests@694abbdc]" started-at="2022-03-10T11:25:08 IST" name="logout" finished-at="2022-03-10T11:25:14 IST" duration-ms="6226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:m_flipcart.tests@694abbdc]" started-at="2022-03-10T11:25:14 IST" name="closeBrowser" finished-at="2022-03-10T11:25:14 IST" duration-ms="739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- m_flipcart.tests -->
+      <class name="m_flipcart.randomTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:m_flipcart.randomTest@2e005c4b]" started-at="2022-03-10T11:24:00 IST" name="beforeClass" finished-at="2022-03-10T11:24:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:m_flipcart.randomTest@2e005c4b]" started-at="2022-03-10T11:24:00 IST" name="beforeclass" finished-at="2022-03-10T11:24:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="Tests()[pri:0, instance:m_flipcart.randomTest@2e005c4b]" started-at="2022-03-10T11:24:00 IST" name="Tests" finished-at="2022-03-10T11:24:00 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tests -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:m_flipcart.randomTest@2e005c4b]" started-at="2022-03-10T11:24:00 IST" name="afterMethod" finished-at="2022-03-10T11:24:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="AfterClasss()[pri:0, instance:m_flipcart.randomTest@2e005c4b]" started-at="2022-03-10T11:24:00 IST" name="AfterClasss" finished-at="2022-03-10T11:24:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClasss -->
+      </class> <!-- m_flipcart.randomTest -->
+    </test> <!-- OperaTest -->
+    <test started-at="2022-03-10T11:25:14 IST" name="ChromeTest" finished-at="2022-03-10T11:26:28 IST" duration-ms="73443">
+      <class name="m_flipcart.tests">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:m_flipcart.tests@4466af20]" started-at="2022-03-10T11:25:14 IST" name="launchBrowser" finished-at="2022-03-10T11:25:15 IST" duration-ms="944" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:m_flipcart.tests@4466af20]" started-at="2022-03-10T11:25:15 IST" name="launchBrowser" finished-at="2022-03-10T11:25:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logInApplication()[pri:0, instance:m_flipcart.tests@4466af20]" started-at="2022-03-10T11:25:15 IST" name="logInApplication" finished-at="2022-03-10T11:25:33 IST" duration-ms="17508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInApplication -->
+        <test-method signature="addDelete()[pri:0, instance:m_flipcart.tests@4466af20]" started-at="2022-03-10T11:25:33 IST" name="addDelete" finished-at="2022-03-10T11:25:55 IST" duration-ms="21587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addDelete -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:m_flipcart.tests@4466af20]" started-at="2022-03-10T11:25:55 IST" name="logout" finished-at="2022-03-10T11:26:01 IST" duration-ms="6390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="logInApplication()[pri:0, instance:m_flipcart.tests@4466af20]" started-at="2022-03-10T11:26:01 IST" name="logInApplication" finished-at="2022-03-10T11:26:15 IST" duration-ms="13872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInApplication -->
+        <test-method signature="remove()[pri:0, instance:m_flipcart.tests@4466af20]" started-at="2022-03-10T11:26:15 IST" name="remove" finished-at="2022-03-10T11:26:21 IST" duration-ms="6434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:m_flipcart.tests@4466af20]" started-at="2022-03-10T11:26:21 IST" name="logout" finished-at="2022-03-10T11:26:28 IST" duration-ms="6391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:m_flipcart.tests@4466af20]" started-at="2022-03-10T11:26:28 IST" name="closeBrowser" finished-at="2022-03-10T11:26:28 IST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- m_flipcart.tests -->
+      <class name="m_flipcart.randomTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:m_flipcart.randomTest@a514af7]" started-at="2022-03-10T11:25:15 IST" name="beforeClass" finished-at="2022-03-10T11:25:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="Tests()[pri:0, instance:m_flipcart.randomTest@a514af7]" started-at="2022-03-10T11:25:15 IST" name="Tests" finished-at="2022-03-10T11:25:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tests -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:m_flipcart.randomTest@a514af7]" started-at="2022-03-10T11:25:15 IST" name="beforeclass" finished-at="2022-03-10T11:25:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:m_flipcart.randomTest@a514af7]" started-at="2022-03-10T11:25:15 IST" name="afterMethod" finished-at="2022-03-10T11:25:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="AfterClasss()[pri:0, instance:m_flipcart.randomTest@a514af7]" started-at="2022-03-10T11:25:15 IST" name="AfterClasss" finished-at="2022-03-10T11:25:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClasss -->
+      </class> <!-- m_flipcart.randomTest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

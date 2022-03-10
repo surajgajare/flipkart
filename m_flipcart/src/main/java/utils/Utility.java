@@ -1,13 +1,12 @@
 package utils;
 
 import java.io.File;
-import java.io.FileInputStream;
+
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import org.apache.poi.EncryptedDocumentException;
-import org.apache.poi.ss.usermodel.WorkbookFactory;
+
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -26,18 +25,18 @@ public class Utility {
 											+ "\\VCTC\\selenium screenshot\\by systemdate\\"+screenshotNameFormat+".png"));
 		}
 	
-	public static String dataFromExcel(String sheet,int row,int col) throws EncryptedDocumentException, IOException 
-	{
-		
-		String path = "D:\\SOFTWARE\\selenium\\data.xlsx";
-		
-		FileInputStream file = new FileInputStream(path);
-		  
-	    double name =  WorkbookFactory.create(file).getSheet(sheet).getRow(row).getCell(col).getNumericCellValue();
-	    
-	    
-	    return dataFromExcel(sheet, row, col);
-		
-	}
+//	public static String dataFromExcel(String sheet,int row,int col) throws EncryptedDocumentException, IOException 
+//	{
+//		
+//		String path = "D:\\SOFTWARE\\selenium\\data.xlsx";
+//		
+//		FileInputStream file = new FileInputStream(path);
+//		  
+//	    double name =  WorkbookFactory.create(file).getSheet(sheet).getRow(row).getCell(col).getNumericCellValue();
+//	    
+//	    
+//	    return dataFromExcel(sheet, row, col);
+//		
+//	}
 
 }
